@@ -16,7 +16,7 @@
 <body>
     <header>
         <nav>
-            <div class="logo-container">
+            <div class="logo-contenedor">
             <a href="index.html">
             <img class="logocostado" src="svg/logocostado.svg" alt="Logo de la marca">
             </a>
@@ -41,9 +41,9 @@
 
     <section id="quiensomos" class="bannerquiensomos">
         <div class="banner-content">
-           <h1 class="lato-black">¿Quienes Somos?</h1>
+           <h1 class="tituloblanco">¿Quienes Somos?</h1>
            <br>
-           <p class="lato-regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus eaque, officiis quisquam consequuntur quam quis ratione nam quasi at ea accusantium minima est molestiae similique earum, placeat dicta nemo!</p>
+           <p class="quienessomosdescrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus eaque, officiis quisquam consequuntur quam quis ratione nam quasi at ea accusantium minima est molestiae similique earum, placeat dicta nemo!</p>
         </div>
     </section>
 
@@ -51,15 +51,12 @@
 
 
 
-
-
-
-
-
-
 <div>
-    <h2>Nuestro Trabajo</h2>
-    <div class="grid-container">
+    <br><br><br>
+    <h2 class="titulo">Nuestro Trabajo</h2>
+    <br><br><br>
+
+    <div class="grid-contenedor">
         <div class="grid-item one">
             <img src="img/Foto 1.jpg" alt="Imagen 1">
             <div class="overlay"><p>Descripción de la imagen 1</p></div>
@@ -83,7 +80,66 @@
     </div>
 </div>
 
-    <script src="descripfotos.js"></script>
+
+
+<div>
+    <br><br><br>
+    <h2 class="titulo">Testimonios</h2>
+
+    <div class="testimonios-contenedor">
+        <div class="slides-contenedor">
+            <!-- Slide 1 -->
+            <div class="testimonio-slide active">
+                <div class="testimonio-imagen-container">
+                    <img src="img/Persona1.jpg" alt="Karely" class="testimonio-imagen">
+                </div>
+                <h3 class="estilonombre">ANDRES</h3>
+                <br><br>
+                <p class="estilotestimonio">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, mollitia consectetur dignissimos a nisi repudiandae reiciendis itaque dicta animi dolorum, odio nihil ducimus praesentium repellat, temporibus quia ullam at rerum.
+                </p>
+            </div>
+    
+            <!-- Slide 2 -->
+            <div class="testimonio-slide">
+                <div class="testimonio-imagen-container">
+                    <img src="img/Persona2.jpg" alt="María" class="testimonio-imagen">
+                </div>
+                <h3 class="estilonombre">JOSÉ</h3>
+                <br><br>
+                <p class="estilotestimonio">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sequi animi inventore. Ipsam dolorum nostrum at repudiandae natus, ullam quo architecto magnam possimus eligendi, soluta ipsum fugit aut distinctio aperiam!
+                </p>
+            </div>
+    
+            <!-- Slide 3 -->
+            <div class="testimonio-slide">
+                <div class="testimonio-imagen-container">
+                    <img src="img/Persona3.jpg" alt="Pedro" class="testimonio-imagen">
+                </div>
+                <br><br>
+                <h3 class="estilonombre">KARELY</h3>
+                <br><br>
+                <p class="estilotestimonio">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur animi vitae minima? Voluptatum repellat tempora sint non odio provident. Enim at debitis, autem et atque itaque porro modi ut voluptate!
+                </p>
+            </div>
+        </div>
+
+        <button class="nav-btn prev-btn">❮</button>
+        <button class="nav-btn next-btn">❯</button>
+        
+        <div class="indicadores">
+            <div class="indicador active"></div>
+            <div class="indicador"></div>
+            <div class="indicador"></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="javascript/botones.js"></script>
+<script src="javascript/descripfotos.js"></script>
     <script src="javascript/app.js"></script>
     <script src="javascript/fondonav.js"></script>
 </body>
