@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 67 67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #3693d6;
+      }
+
+      .cls-2 {
+        opacity: 0;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_27" data-name="Grupo 27" transform="translate(-1752 -41)">
+    <g id="Rectángulo_11" data-name="Rectángulo 11" class="cls-1" transform="translate(1752 41)">
+      <rect class="cls-4" width="67" height="67" rx="33.5"/>
+      <rect class="cls-5" x="1" y="1" width="65" height="65" rx="32.5"/>
+    </g>
+    <g id="shopping-basket" transform="translate(661 -130)">
+      <rect id="Frame" class="cls-2" width="50" height="50" transform="translate(1100 180)"/>
+      <path id="shopping-basket-2" data-name="shopping-basket" class="cls-3" d="M1140.694,196.385a4.188,4.188,0,0,1-4.188,4.188h-29.318a4.188,4.188,0,1,1,0-8.377h3.619l5.547-9.189a1.57,1.57,0,1,1,2.687,1.625l-4.567,7.564h14.766l-4.515-7.572a1.571,1.571,0,0,1,2.7-1.608l5.474,9.181h3.609A4.19,4.19,0,0,1,1140.694,196.385Zm-3.4,6.973-1.269,12.5c-.293,3.2-1.633,5.654-6.241,5.654h-15.832c-4.691,0-5.926-2.45-6.261-5.654l-1.29-12.5a.629.629,0,0,1,.626-.693h29.642A.627.627,0,0,1,1137.293,203.359Zm-18.022,4.544a1.571,1.571,0,1,0-3.141,0v6.282a1.571,1.571,0,0,0,3.141,0Zm8.377,0a1.571,1.571,0,1,0-3.141,0v6.282a1.571,1.571,0,0,0,3.141,0Z" transform="translate(3.283 2.462)"/>
+    </g>
+  </g>
+</svg>

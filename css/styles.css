@@ -1,0 +1,360 @@
+:root {
+    --primary-color: #3693D6;
+    --secondary-color: #ffffff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+
+body {
+    font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--secondary-color);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent; /* Fondo completamente transparente */
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: none; /* Elimina la sombra si no es necesaria */
+}
+
+nav {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 25px;
+    top: 0;
+    z-index: 1000; /* Asegura que el nav esté por encima de otros elementos */
+    background-color: transparent; /* Fondo inicial transparente */
+    padding: 10px 0; /* Ajusta el padding según sea necesario */
+}
+
+nav::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Cubre el 100% del ancho de la ventana */
+    height: 100%;
+    background-color: transparent; /* Fondo inicial transparente */
+    z-index: -1; /* Lo coloca detrás del contenido del nav */
+    transition: background-color 0.3s ease; /* Transición suave */
+    pointer-events: none; /* Evita que el pseudo-elemento interfiera con los clics */
+}
+h2 {
+    text-align: center;
+}
+nav.scrolled::before {
+    background-color: rgba(0, 0, 0, 0.5); /* Negro con 50% de opacidad */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.logologocostado {
+    width: 255px !important; /* Fuerza el tamaño */
+    height: auto !important; /* Mantiene la proporción */
+}
+
+.logo-container .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconocuenta,
+.iconocompra {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 50px;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    border: 5px solid transparent; /* Borde transparente por defecto */
+    border-radius: 50%; /* Hace que el borde sea circular */
+    transition: all 0.5s ease; /* Transición suave */
+}
+
+.iconocuenta:hover,
+.iconocompra:hover {
+    border-color: #3693D6; /* Borde rojo al hacer hover */
+}
+
+.centrado{
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white; /* Color del texto */
+    font-weight: 500;
+    position: relative; /* Necesario para posicionar la línea */
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #3693D6; /* Color al hacer hover */
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Ajusta la posición de la línea */
+    width: 100%;
+    height: 2px; /* Grosor de la línea */
+    background: white; /* Color de la línea */
+    transform: scaleX(0); /* Inicialmente la línea está oculta */
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+.nav-links a:hover::after {
+    transform: scaleX(1); /* Muestra la línea al hacer hover */
+    transform-origin: left;
+}
+img {
+    width: 220px; /* Esto sobrescribiría el tamaño del logo */
+}
+
+.banner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Necesario para posicionar elementos hijos */
+}
+
+.banner {
+    background: url('../img/cascada.jpg') center/cover no-repeat;
+    position: relative;
+    isolation: isolate;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerquiensomos {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Necesario para posicionar elementos hijos */
+}
+
+.bannerquiensomos {
+    color: white;
+    background-color: #3693D6;
+    position: relative;
+    isolation: isolate;
+    height: 40vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.masquepura {
+    width: 200px; /* Tamaño original del logo (ajusta según sea necesario) */
+    height: auto; /* Mantiene la proporción */
+    opacity: 0; /* Inicia invisible */
+    transform: scale(1.5); /* Escala inicial (más grande) */
+    animation: aparecer 1.5s ease forwards; /* Animación al cargar la página */
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0; /* Inicia invisible */
+        transform: scale(1.5); /* Escala inicial (más grande) */
+    }
+    100% {
+        opacity: 1; /* Termina visible */
+        transform: scale(1); /* Escala final (tamaño original) */
+    }
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.logo-oscuro {
+    width: min(80%, 400px);
+    position: relative;
+    z-index: 2;
+    filter: 
+        drop-shadow(0 0 15px rgba(255,255,255,0.2)) 
+        contrast(1.2);
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2; /* Asegura que el SVG esté sobre el gradiente */
+    width: 80%;
+    max-width: 600px;
+}
+
+.banner-content img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(2px 2px 8px rgba(0,0,0,0.3));
+}
+
+
+
+
+
+/*======== QUIENES SOMOS ============*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+    max-width: 900px;
+    margin: 0 auto; /* Esto ya asegura que esté centrado */
+    padding-left: 75px;
+    padding-right: 75px;
+    box-sizing: border-box;
+    justify-items: center; /* Centra los elementos dentro del grid */
+    align-items: center;  /* Centra los elementos verticalmente */
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(54, 147, 214, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.grid-item:hover .overlay {
+    opacity: 1;
+}
+.one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+.two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+.three {
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+}
+.four {
+    grid-column: 3;
+    grid-row: 3;
+}
+.six {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.productos {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.producto-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    position: relative;
+}
+
+.descuento {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}

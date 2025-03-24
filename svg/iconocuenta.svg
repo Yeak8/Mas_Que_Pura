@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 67 67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #25314c;
+        opacity: 0;
+      }
+
+      .cls-3 {
+        fill: #3693d6;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_41" data-name="Grupo 41" transform="translate(-1651 -41)">
+    <g id="Rectángulo_10" data-name="Rectángulo 10" class="cls-1" transform="translate(1651 41)">
+      <rect class="cls-4" width="67" height="67" rx="33.5"/>
+      <rect class="cls-5" x="1" y="1" width="65" height="65" rx="32.5"/>
+    </g>
+    <g id="user-alt" transform="translate(563.591 -1495)">
+      <rect id="Frame" class="cls-2" width="42" height="43" transform="translate(1100.409 1548)"/>
+      <path id="user-alt-2" data-name="user-alt" class="cls-3" d="M1110.76,1557.636a7.136,7.136,0,1,1,7.136,7.136A7.143,7.143,0,0,1,1110.76,1557.636Zm10.688,10.7h-7.136c-7.244,0-9.812,5.3-9.812,9.846v5.318a.892.892,0,0,0,.892.892h24.977a.892.892,0,0,0,.892-.892v-5.318C1131.261,1573.645,1128.692,1568.341,1121.449,1568.341Z" transform="translate(3.528 1.96)"/>
+    </g>
+  </g>
+</svg>
