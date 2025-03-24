@@ -1,0 +1,1 @@
+src="https://www.paypal.com/sdk/js?client-id=TU_CLIENT_ID&currency=MXN"

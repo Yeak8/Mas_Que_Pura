@@ -1,0 +1,147 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 850px) {
+    nav {
+        padding: 15px 20px;
+        font-size: 16px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        z-index: 1000;
+        display: flex
+;
+        justify-content: space-around;
+        align-items: center;
+        background: #000;
+        box-sizing: border-box;
+    }
+
+    .logocostado {
+        width: 150px !important;
+        max-width: 40vw;
+        order: 1;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100vw;
+        flex-direction: column;
+        gap: 10px;
+        order: 3;
+        padding: 15px 0;
+        background: #000;
+        position: absolute;
+        top: 100%;
+        z-index: 1000;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    .nav-links a {
+        font-size: 1.1rem;
+    }
+
+    .centrado a br {
+        display: none;
+    }
+
+    .iconocuenta, 
+    .iconocompra {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .hamburger {
+        display: block;
+        order: 2;
+        cursor: pointer;
+        padding: 10px;
+        margin-left: 15px;
+    }
+
+    .hamburger .line {
+        width: 25px;
+        height: 2px;
+        background: white;
+        margin: 5px 0;
+    }
+
+    .hamburger.active .line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .line:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 850px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .footer-brand, .footer-social {
+        justify-content: center;
+        display: flex;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
