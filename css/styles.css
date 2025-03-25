@@ -14,6 +14,12 @@
     url('../fonts/Verlag-Book.otf'), url('../fonts/Verlag-Light.otf'),
     url('../fonts/Verlag-XLight.otf');
 }*/
+@import url('https://fonts.cdnfonts.com/css/gloss-and-bloom');
+
+.gossandbloom{
+    font-family: 'Gloss And Bloom', sans-serif;
+
+}
 
 .lato-regular {
     font-family: "Lato", sans-serif;
