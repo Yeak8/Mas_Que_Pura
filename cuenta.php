@@ -11,18 +11,18 @@
     <header>
         <nav>
             <div class="logo-container">
-            <a href="index.html">
+            <a href="index.php">
             <img class="logocostado" src="svg/logocostado.svg" alt="Logo de la marca">
             </a>
             </div>  
 
             <ul class="nav-links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="tienda.html">Tienda</a></li>
-                <li><a href="productos.html">Productos y servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="cuenta.html" id="buyBtn"><img src="svg/iconocuenta.svg" alt="Icono de cuenta" class="iconocuenta"></a></li>
-                <li><a href="compra.html" id="loginBtn"><img src="svg/iconocompra.svg" alt="Icono de compra" class="iconocompra"></a></li>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="tienda.php">Tienda</a></li>
+                <li><a href="productos.php">Productos y servicios</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
+                <li><a href="cuenta.php" id="buyBtn"><img src="svg/iconocuenta.svg" alt="Icono de cuenta" class="iconocuenta"></a></li>
+                <li><a href="compra.php" id="loginBtn"><img src="svg/iconocompra.svg" alt="Icono de compra" class="iconocompra"></a></li>
             </ul>
             </nav>
     </header>
@@ -146,7 +146,8 @@
 
 
 
-    
+    <?php include('footer.php');?>
+
     <script src="javascript/app.js"></script>
     <script src="javascript/fondonav.js"></script>
 </body>
