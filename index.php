@@ -136,5 +136,6 @@ if (session_status() === PHP_SESSION_NONE) {
 <script src="javascript/descripfotos.js"></script>
     <script src="javascript/app.js"></script>
     <script src="javascript/fondonav.js"></script>
+
 </body>
 </html>
