@@ -1,3 +1,9 @@
+<?php
+// Solo iniciar sesión si no está iniciada
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -126,6 +132,7 @@
 
 <script src="javascript/hamburguesa.js"></script>
 <script src="javascript/botones.js"></script>
+<script src="javascript/iconocarrito.js"></script>
 <script src="javascript/descripfotos.js"></script>
     <script src="javascript/app.js"></script>
     <script src="javascript/fondonav.js"></script>

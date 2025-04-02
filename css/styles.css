@@ -42,14 +42,12 @@ body {
 }
 
 header {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: transparent; /* Fondo completamente transparente */
     z-index: 1000;
     padding: 10px 20px;
-    box-shadow: none; /* Elimina la sombra si no es necesaria */
+    background-color: #3693D6;
 }
 
 .titulo{
@@ -165,7 +163,7 @@ nav.scrolled::before {
 }
 
 .nav-links a:hover {
-    color: #3693D6; /* Color al hacer hover */
+    color: white; /* Color al hacer hover */
 }
 
 .nav-links a::after {

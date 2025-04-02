@@ -4,7 +4,10 @@
     padding: 20px;
     font-family: Arial, sans-serif;
 }
-
+.admin-header{
+    text-align: center;
+    align-items: center ;
+}
 .product-section, .promo-section {
     margin-bottom: 40px;
     padding: 20px;
