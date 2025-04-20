@@ -83,8 +83,8 @@ if (!empty($_SESSION['carrito'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito de Compras - Más Que Pura</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/compra.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/compra.css">
 </head>
 <body>
     <?php include('menubanner.php'); ?>
@@ -178,7 +178,7 @@ if (!empty($_SESSION['carrito'])) {
 
     <?php include('footer.php'); ?>
 
-    <script src="javascript/app.js"></script>
-    <script src="javascript/compra.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/compra.js"></script>
 </body>
 </html>

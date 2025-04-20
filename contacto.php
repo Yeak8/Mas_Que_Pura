@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Más Que Pura - Agua Purificada</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/contacto.css">
-    <link rel="stylesheet" href="css/movil.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/movil.css">
     <script src="https://www.paypal.com/sdk/js?client-id=TU_CLIENT_ID&currency=MXN"></script>
 </head>
 <body>
@@ -46,8 +46,8 @@
 
     <?php include('footer.php');?>
     
-    <script src="javascript/app.js"></script>
-    <script src="javascript/hamburguesa.js"></script>
-    <script src="javascript/fondonav.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/hamburguesa.js"></script>
+    <script src="assets/js/fondonav.js"></script>
 </body>
 </html>

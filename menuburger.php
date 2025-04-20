@@ -9,7 +9,7 @@ if (session_status() === PHP_SESSION_NONE) {
         <nav>
             <div class="logo-contenedor">
                 <a href="index.php">
-                    <img class="logocostado" src="img/MQPblanco.png" alt="Logo de la marca">
+                    <img class="logocostado" src="assets/img/MQPblanco.png" alt="Logo de la marca">
                 </a>
             </div>
     

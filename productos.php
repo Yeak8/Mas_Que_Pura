@@ -66,8 +66,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Productos - Más Que Pura</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/productos.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/productos.css">
     </head>
     <body>
 
@@ -144,7 +144,7 @@
                             <?php if ($producto['imagen']): ?>
                                 <img src="uploads/productos/<?= htmlspecialchars($producto['imagen']) ?>" alt="<?= htmlspecialchars($producto['nombre']) ?>">
                             <?php else: ?>
-                                <img src="img/producto-default.jpg" alt="Producto sin imagen">
+                                <img src="assets/img/producto-default.jpg" alt="Producto sin imagen">
                             <?php endif; ?>
                             
                             <?php if ($producto['descuento']): ?>
@@ -189,7 +189,7 @@
 
         <?php include('footer.php'); ?>
 
-        <script src="javascript/app.js"></script>
-        <script src="javascript/productos.js"></script>
+        <script src="assets/js/app.js"></script>
+        <script src="assets/js/productos.js"></script>
     </body>
     </html>

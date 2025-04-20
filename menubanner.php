@@ -9,7 +9,7 @@ if (session_status() === PHP_SESSION_NONE) {
     <nav>
         <div class="logo-container">
             <a href="index.php">
-                <img class="logocostado" src="img/MQPblanco.png" alt="Logo de la marca">
+                <img class="logocostado" src="assets/img/MQPblanco.png" alt="Logo de la marca">
             </a>
         </div>
 
@@ -28,4 +28,4 @@ if (session_status() === PHP_SESSION_NONE) {
     </nav>
 </header>
 
-<script src="javascript/iconocarrito.js"></script>
+<script src="assets/js/iconocarrito.js"></script>

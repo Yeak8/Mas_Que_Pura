@@ -10,8 +10,8 @@ if (session_status() === PHP_SESSION_NONE) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Más Que Pura - Agua Purificada</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/movil.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/movil.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
     <section id="inicio" class="banner">
         <div class="banner-content">
-            <img class="masquepura" src="img/Nombre/Masquepuranombre.png" alt="Logo" class="masquepura">
+            <img class="masquepura" src="assets/img/Nombre/Masquepuranombre.png" alt="Logo" class="masquepura">
         </div>
     </section>
 
@@ -47,23 +47,23 @@ if (session_status() === PHP_SESSION_NONE) {
 
     <div class="grid-contenedor">
         <div class="grid-item one">
-            <img src="img/Foto 1.jpg" alt="Imagen 1">
+            <img src="assets/img/Foto 1.jpg" alt="Imagen 1">
             <div class="overlay"><p>Descripción de la imagen 1</p></div>
         </div>
         <div class="grid-item two">
-            <img src="img/Foto 2.jpg" alt="Imagen 2">
+            <img src="assets/img/Foto 2.jpg" alt="Imagen 2">
             <div class="overlay"><p>Descripción de la imagen 2</p></div>
         </div>
         <div class="grid-item three">
-            <img src="img/Foto 3.jpg" alt="Imagen 3">
+            <img src="assets/img/Foto 3.jpg" alt="Imagen 3">
             <div class="overlay"><p>Descripción de la imagen 3</p></div>
         </div>
         <div class="grid-item four">
-            <img src="img/Foto 4.jpg" alt="Imagen 4">
+            <img src="assets/img/Foto 4.jpg" alt="Imagen 4">
             <div class="overlay"><p>Descripción de la imagen 4</p></div>
         </div>
         <div class="grid-item five">
-            <img src="img/Foto 5.jpg" alt="Imagen 5">
+            <img src="assets/img/Foto 5.jpg" alt="Imagen 5">
             <div class="overlay"><p>Descripción de la imagen 5</p></div>
         </div>
     </div>
@@ -80,7 +80,7 @@ if (session_status() === PHP_SESSION_NONE) {
             <!-- Slide 1 -->
             <div class="testimonio-slide active">
                 <div class="testimonio-imagen-container">
-                    <img src="img/Persona1.jpg" alt="Karely" class="testimonio-imagen">
+                    <img src="assets/img/Persona1.jpg" alt="Karely" class="testimonio-imagen">
                 </div>
                 <h3 class="estilonombre">ANDRES</h3>
                 <br><br>
@@ -92,7 +92,7 @@ if (session_status() === PHP_SESSION_NONE) {
             <!-- Slide 2 -->
             <div class="testimonio-slide">
                 <div class="testimonio-imagen-container">
-                    <img src="img/Persona2.jpg" alt="María" class="testimonio-imagen">
+                    <img src="assets/img/Persona2.jpg" alt="María" class="testimonio-imagen">
                 </div>
                 <h3 class="estilonombre">JOSÉ</h3>
                 <br><br>
@@ -104,7 +104,7 @@ if (session_status() === PHP_SESSION_NONE) {
             <!-- Slide 3 -->
             <div class="testimonio-slide">
                 <div class="testimonio-imagen-container">
-                    <img src="img/Persona3.jpg" alt="Pedro" class="testimonio-imagen">
+                    <img src="assets/img/Persona3.jpg" alt="Pedro" class="testimonio-imagen">
                 </div>
                 <br><br>
                 <h3 class="estilonombre">KARELY</h3>
@@ -130,12 +130,12 @@ if (session_status() === PHP_SESSION_NONE) {
 
 <?php include('footer.php');?>
 
-<script src="javascript/hamburguesa.js"></script>
-<script src="javascript/botones.js"></script>
-<script src="javascript/iconocarrito.js"></script>
-<script src="javascript/descripfotos.js"></script>
-    <script src="javascript/app.js"></script>
-    <script src="javascript/fondonav.js"></script>
+<script src="assets/js/hamburguesa.js"></script>
+<script src="assets/js/botones.js"></script>
+<script src="assets/js/iconocarrito.js"></script>
+<script src="assets/js/descripfotos.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/fondonav.js"></script>
 
 </body>
 </html>
