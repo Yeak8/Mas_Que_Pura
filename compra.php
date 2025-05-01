@@ -130,6 +130,10 @@ if (!empty($_SESSION['carrito'])) {
                                 <input type="number" name="cantidad[<?= $item['id'] ?>]" 
                                        value="<?= $item['cantidad'] ?>" min="1" max="<?= $item['stock'] ?>">
                             </div>
+
+                            <div class="item-stock-disponible">
+                            <small>Disponibles: <?= $item['stock'] ?> unidades</small>
+                            </div>
                             
                             <div class="item-subtotal">
                                 Subtotal: $<?= number_format($item['subtotal'], 2) ?>

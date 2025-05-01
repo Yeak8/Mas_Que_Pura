@@ -164,6 +164,9 @@
                                 <?php else: ?>
                                     <span class="precio-normal">$<?= number_format($producto['precio'], 2) ?></span>
                                 <?php endif; ?>
+                                <div class="producto-stock">
+        <small>Disponibles: <?= $producto['stock'] ?> unidades</small>
+    </div>
                             </div>
                             
                             <div class="producto-acciones">

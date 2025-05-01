@@ -3,7 +3,7 @@
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-brand">
-            <img src="img\Maspuralogoblanco.png" alt="Más que pura" class="footer-logo">
+            <img src="assets\img\Maspuralogoblanco.png" alt="Más que pura" class="footer-logo">
         </div>
 
         <div class="footer-section">
